@@ -16,5 +16,5 @@ Pod::Spec.new do |s|
   #s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "heru" => "heruprasetia@nets.com.sg" }
   s.source       = { :http => 'https://developer.nets.com.sg/assets/adhoc/netsclicksdk/1.10.9/nofsdk.debug.zip' }
-  nets.vendored_frameworks  = "nofsdk.framework"
+  s.vendored_frameworks  = "nofsdk.framework"
 end
